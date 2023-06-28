@@ -11,6 +11,7 @@ for c in range (0, 5): # where '5' is the number of generated passwords
     char = string.ascii_letters + string.digits + string.punctuation # includes character classes: letters, digits and punctuation
     password = ''.join(secrets.choice(char)for i in range (length_pass)) # here the password is generated
     print(password)
+    print('')
     time.sleep(0.5)
 
 print('')
